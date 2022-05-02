@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: bisque;
+    height: auto;
+}
+
+#main_container {
+    width: 1024px;
+    background-color: #774C18;
+    height: 2000px;
+}
