@@ -3,6 +3,8 @@ body {
     width: 100%;
     background-color: bisque;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #main_container {
