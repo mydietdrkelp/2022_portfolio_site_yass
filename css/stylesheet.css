@@ -9,18 +9,15 @@ body {
     margin-top: 50px;
 }
 
-#maincontainer {
-    
-}
 
 #logo {
+    display: flex;
     justify-content: center;
-    flex-direction: column;
     }
 
 #nav {
-    width: 3540x;
-    height: 310 px;
+    width: 3540px;
+    height: 310px;
     background-color: #C8E3C0;
 }
 
@@ -30,3 +27,13 @@ body {
     justify-content: space-evenly;
 }
 
+#about_moi {
+    margin: 130px;
+    display: flex;
+    justify-content: right;
+}
+#first {
+    width: 735px;
+    height: 735px;
+    background: #DEEAAC;
+}
