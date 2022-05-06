@@ -1,14 +1,32 @@
 body {
     margin: 0px;
     width: 100%;
-    background-color: bisque;
+    background-color: #E9FFF6;
     height: auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
-#main_container{
-    width: 1024px;
-    background-color: #774C18;
-    height: 2000px;
+#maincontainer {
+    
 }
+
+#logo {
+    justify-content: center;
+    flex-direction: column;
+    }
+
+#nav {
+    width: 3540x;
+    height: 310 px;
+    background-color: #C8E3C0;
+}
+
+#nav_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
