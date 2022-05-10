@@ -19,29 +19,38 @@ a {
     }
 
 #nav {
-    width: 35px;
+    width: 3550px;
     height: 310px;
     background-color: #C8E3C0;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 #nav_text_link {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
    
 }
 
-#about-me {
+#about-me-logo {
     margin: 130px;
     display: flex;
     justify-content: right;
+    position: absolute;
 }
-#first {
-    width: 735px;
-    height: 735px;
+#image_box {
+    width: 1471px;
+    height: 1471px;
     background: #DEEAAC;
     margin-left: 150px;
     margin-top: -40x;
+}
+
+#background {
+    background-image: url(../images/background.png);
+    width: 3663px;
+    height: 3908px;
+    justify-content: center;
+    margin-top: -2000px;
 }
