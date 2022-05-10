@@ -8,6 +8,12 @@ body {
     flex-direction: column;
     margin-top: 50px;
 }
+#maincontainer {
+    width: 1000px;
+    background-color: purple;
+    border: solid 1px black;
+
+}
 
 a {
     color: #325754;
@@ -16,12 +22,14 @@ a {
 #logo {
     display: flex;
     justify-content: center;
+    border: solid 1px black;
     }
 
 #nav {
     width: 3550px;
     height: 310px;
     background-color: #C8E3C0;
+    border: solid 1px black;
     /* justify-content: space-evenly; */
 }
 
@@ -29,6 +37,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border: solid 1px black;
     /* justify-content: space-evenly; */
    
 }
@@ -38,6 +47,7 @@ a {
     display: flex;
     justify-content: right;
     position: absolute;
+    border: solid 1px black;
 }
 #image_box {
     width: 1471px;
@@ -47,10 +57,10 @@ a {
     margin-top: -40x;
 }
 
-#background {
+/* #background {
     background-image: url(../images/background.png);
     width: 3663px;
     height: 3908px;
     justify-content: center;
-    margin-top: -2000px;
+    margin-top: -2300px; */
 }
