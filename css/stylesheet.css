@@ -9,6 +9,9 @@ body {
     margin-top: 50px;
 }
 
+a {
+    color: #325754;
+}
 
 #logo {
     display: flex;
@@ -16,18 +19,21 @@ body {
     }
 
 #nav {
-    width: 3540px;
+    width: 35px;
     height: 310px;
     background-color: #C8E3C0;
-}
-
-#nav_text {
-    display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
 }
 
-#about_moi {
+#nav_text_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+#about-me {
     margin: 130px;
     display: flex;
     justify-content: right;
@@ -36,4 +42,6 @@ body {
     width: 735px;
     height: 735px;
     background: #DEEAAC;
+    margin-left: 150px;
+    margin-top: -40x;
 }
