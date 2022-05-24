@@ -24,13 +24,14 @@ a {
 
 #maincontainer {
     width: 1000px;
-    height: 3600px;
+    height: 2550px;
     /* display: flex; */
     flex-direction: column;
     align-self: center;
     justify-content: center;
     background-color: #345754;
     background-image: url(../images/backgroundd.png);
+    background-repeat: no-repeat;
     flex-wrap: wrap;
 }
 
@@ -71,7 +72,10 @@ a {
     width: 350px;
     height: 350px;
     background-color: white;
-    justify-items: center;
+    justify-self: center;
+    align-self: center;
+    margin-left: 27px;
+    margin-top: 50px;
 }
 
 #textbox {
@@ -92,15 +96,14 @@ a {
 }
 
 p {
-    font-size: 19pt;
+    font-size: 17pt;
     color: #325754;
 }
 
 
 #myworklogo {
-    margin-top: 500px;
-    align-self: center;
-    justify-content: center;
+    margin-left: 150px;
+    margin-top: 400px;
 }
 
 #myworkbox {
@@ -110,14 +113,26 @@ p {
     border-radius: 50px;
     padding: 50px;
     align-self: center;
+    margin: 55px;
 }
 
 .image_placeholder {
     width: 538px;
     height: 538px;
+    /* margin: 150px; */
+   margin-left: 140px;
     background-color: white;
     align-items: center;
 }
+
+#spacer {
+    width: 1000px;
+    height: 83px;
+    margin-top: 250px;
+    background-color: #648177;
+    justify-content: center;
+}
+
 
 #contact_box {
     width: 700px;
@@ -126,7 +141,8 @@ p {
     border-radius: 100px;
     padding: 80px;
     align-self: center;
-    margin-top: 400px;
+    margin-top: -20px;
+    margin-left: 280px;
 }
 
 .contactmetext {
@@ -135,26 +151,31 @@ p {
     font-size: 61pt;
 }
 
-#conractcontainer {
+#contactcontainer {
     width: 1000px;
     height: 865px;
     /* display: flex; */
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    background-color: #345754;
+    background-color: #DEEAAC;
     flex-wrap: wrap;
 }
 
 #contact_box {
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-left: 74px;
+    margin-top: 200px;
 }
 
 
 h2 {
     color: #DEEAAC;
+    font-size: 22pt;
     justify-content: center;
+    margin-left: 150px;
 }
 
 li {
