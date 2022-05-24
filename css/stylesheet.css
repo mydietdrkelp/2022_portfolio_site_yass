@@ -1,67 +1,92 @@
 body {
     margin: 0px;
     width: 100%;
+    /* height: fit-content; */
     background-color: #E9FFF6;
     height: auto;
     display: flex;
-    /* align-self: center; */
-    flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    align-self: center;
 }
+
 #maincontainer {
     width: 1000px;
     height: 4000px;
-    /* background-color: purple; */
-    background-image: url(../images/backgroundd.png);
-    border: solid 1px black;
+    background-color: #325754;
+    /* background-image: url(../images/backgroundd.png); */
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-
 a {
     color: #325754;
+    justify-content: space-evenly;
 }
+
 
 #logo {
     display: flex;
     align-self: center;
     width: 467px;
     /* height: 336px; */
-    border: solid 1px black;
+    /* border: solid 1px black; */
     }
 
 #nav {
     width: 1000px;
     height: 86px;
     background-color: #C8E3C0;
-    border: solid 1px black;
+    border: solid 1px #DEEAAC;
     align-items: center;
     justify-content: space-around;
 }
 
-#nav_text_link {
+#nav-links {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 
 #about-me-logo {
-    margin-left: 150px;
-    justify-content: right;
+    margin: 50px;
+    /* justify-content: right; */
     border: solid 1px black;
 }
-#image_box {
+#imagebox {
     width: 406px;
     height: 406px;
     background: #DEEAAC;
-    margin-left: 90px;
-    margin-top: -40x;
+    margin-left: 150px;
+    /* margin-top: 5px; */
+}
+
+#textbox {
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    padding: 50px;
 }
 
 #myworklogo {
     margin-top: 10px;
     align-self: center;
 }
+
+#myworkbox {
+    width: 800px;
+    height: 700px;
+    background: #DEEAAC;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+#contact_box {
+    width: 700px;
+    height: 400px;
+    background: #4D7172;
+    border-radius: 100px;
+    padding: 100px;
+}
+

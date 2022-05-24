@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: #E9FFF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: #325754;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    position: relative;
+    font-family: 'Bungee', cursive;
+}
+
+#logo {
+    display: flex;
+    align-self: center;
+}
+
+#maincontainer {
+    width: 1000px;
+    height: 3600px;
+    /* display: flex; */
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    background-color: #345754;
+    background-image: url(../images/backgroundd.png);
+    flex-wrap: wrap;
+}
+
+#nav {
+    width: 1000px;
+    height: 86px;
+    margin-top: -20px;
+    display: flex;
+    background-color: #C8E3C0;
+    /* border: solid 1px #DEEAAC; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-links {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: salmon
+    /* border: solid 1px black; */
+}
+
+#aboutmelogo {
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+#imagebox {
+    width: 406px;
+    height: 406px;
+    background: #DEEAAC;
+    margin-left: 540px;
+    margin-top: -600px;
+    justify-content: center;
+    /* margin-top: 5px; */
+}
+.placeholder {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    justify-items: center;
+}
+
+#textbox {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    padding: 50px;
+    background-color: #DEEAAC;
+   margin-left: 60px;
+   margin-top: 95px;
+}
+
+.abousdesc {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 19pt;
+    color: #325754;
+}
+
+
+#myworklogo {
+    margin-top: 500px;
+    align-self: center;
+    justify-content: center;
+}
+
+#myworkbox {
+    width: 800px;
+    height: 700px;
+    background: #DEEAAC;
+    border-radius: 50px;
+    padding: 50px;
+    align-self: center;
+}
+
+.image_placeholder {
+    width: 538px;
+    height: 538px;
+    background-color: white;
+    align-items: center;
+}
+
+#contact_box {
+    width: 700px;
+    height: 300px;
+    background: #4D7172;
+    border-radius: 100px;
+    padding: 80px;
+    align-self: center;
+    margin-top: 400px;
+}
+
+.contactmetext {
+    font-family: 'Bungee', cursive;
+    color: #D7E8AF;
+    font-size: 61pt;
+}
+
+#conractcontainer {
+    width: 1000px;
+    height: 865px;
+    /* display: flex; */
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    background-color: #345754;
+    flex-wrap: wrap;
+}
+
+#contact_box {
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
+    color: #DEEAAC;
+    justify-content: center;
+}
+
+li {
+    font-size: 32pt;
+    color: #DEEAAC;
+}
