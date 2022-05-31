@@ -29,10 +29,13 @@ a {
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    background-color: #345754;
-    background-image: url(../images/backgroundd.png);
-    background-repeat: no-repeat;
+    /* background-color: #345754; */
     flex-wrap: wrap;
+}
+
+.background {
+background-image: url(../images/backgroundd.png);
+background-repeat: repeat-y;
 }
 
 #nav {
@@ -40,6 +43,8 @@ a {
     height: 86px;
     margin-top: -20px;
     display: flex;
+    position: sticky;
+    top: 0;
     background-color: #C8E3C0;
     /* border: solid 1px #DEEAAC; */
     align-items: center;
@@ -93,6 +98,7 @@ a {
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 90px;
 }
 
 p {
